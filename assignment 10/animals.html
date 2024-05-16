@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I308 Animals</title>
+</head>
+<body>
+    <form action="animals.php" method="post"> 
+        <label for="username"> user name: </label><br>
+            <input type="text" name="user_name"><br>
+        <h3>The animal you are most afraid of?</h3>
+            <input type="radio"  name="fear" value="Lions">
+                <label for="option1">Lions</label><br>
+            <input type="radio" name="fear" value="Tigers">
+                <label for="option2">Tigers</label><br>
+            <input type="radio" name="fear" value="Bears">
+                <label for="option2">Bears</label><br>
+            <input type="radio" name="fear" value="Geese">
+                <label for="option2">Geese</label><br>
+
+        <br>
+       
+        <label for="favorite">Your favorite animal?</label>
+            <select name="favorite" id="favorite">
+                <option value="blank">   </option>
+                <option value="Dog">Dog</option>
+                <option value="Cat">Cat</option>
+                <option value="Horse">Horse</option>
+                <option value="Monkey">Monkey</option>
+            </select>
+        <br>
+        <br>   
+        <input type="submit" value="Proceed">
+
+    </form>
+</body>
+</html>
